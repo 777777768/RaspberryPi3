@@ -1,16 +1,28 @@
 ######################################################################################################################
-Hardware configuration
+0-0. Hardware Configuration
+
+10k pot ASD20-12S5
+
+Pin 7  <--GRY--| 10k pot 4.7k 4.75V
+Pin 6  <--VIO--|         3.5k 5.25V   |
+                                      |  
+Pin 5  <--BLK--------------------------
+
+Pin 1 <-- on/off CTRL with Pin 3
+Pin 3 <-- -input
+
+Pin 4 <-- +input
+######################################################################################################################
+1-1. Raspberry Pi Board configuration
 
 1. Change config.txt
 sudo nano /boot/config.txt
 Ctrl + O && Enter to save
 
-
 2. #uncomment to overclock the arm. 700 MHz is the default.
 #arm_freq=800
 
 3. 
-
 -Timed Shutdown
 sudo shutdown –h 21:55
 
@@ -35,13 +47,17 @@ https://www.maketecheasier.com/write-c-sharp-programs-raspberry-pi/
 ----------------------------------------------------------------------------------------------------------------------
 The package mono-devel should be installed to compile code.
 
-The package mono-complete should be installed to install everything - this should cover most cases of "assembly not found" errors.
+The package mono-complete should be installed to install everything
+- this should cover most cases of "assembly not found" errors.
 
-The package mono-dbg should be installed to get debugging symbols for framework libraries - allowing you to get line numbers in stack traces.
+The package mono-dbg should be installed to get debugging symbols for framework libraries
+- allowing you to get line numbers in stack traces.
 
-The package referenceassemblies-pcl should be installed for PCL compilation support - this will resolve most cases of "Framework not installed: .NETPortable" errors during software compilation.
+The package referenceassemblies-pcl should be installed for PCL compilation support
+- this will resolve most cases of "Framework not installed: .NETPortable" errors during software compilation.
 
-The package ca-certificates-mono should be installed to get SSL certificates for HTTPS connections. Install this package if you run into trouble making HTTPS connections.
+The package ca-certificates-mono should be installed to get SSL certificates for HTTPS connections. 
+Install this package if you run into trouble making HTTPS connections.
 
 The package mono-xsp4 should be installed for running ASP.NET applications.
 
