@@ -8,10 +8,10 @@ public static void Main(string[] args)
 }
 }
 ----------------------------------------------------------    
-using System;               //occupy namespace instructions.
-public class code101
+using System;                                //occupy namespace (System) instructions in Main().
+public class code102
 {
-public static void Main()
+public static void Main() 
 {    
     Console.Write("Good morning");    
     Console.WriteLine("Hello How are you?");    
@@ -20,6 +20,6 @@ public static void Main()
 ######################################################################################################################
 1. Open Command Prompt for VS 2017
 2. CD\ 
-3. Go to diratory where file is saved
+3. Go to directory where file is saved
 4. csc filename.cs  (compile cs file)
 5. filename.exe     (execute file)
