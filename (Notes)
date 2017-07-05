@@ -1,7 +1,15 @@
-########################################################
--Change config.txt
+######################################################################################################################
+Hardware configuration
+
+1. Change config.txt
 sudo nano /boot/config.txt
 Ctrl + O && Enter to save
+
+
+2. #uncomment to overclock the arm. 700 MHz is the default.
+#arm_freq=800
+
+3. 
 
 -Timed Shutdown
 sudo shutdown –h 21:55
@@ -22,7 +30,7 @@ https://www.maketecheasier.com/write-c-sharp-programs-raspberry-pi/
 
 1-1. sudo apt-get install mono-complete   <Install Mono - C# common runtime .net compiler>
 
-1-3. sudo apt-get install mono-dbg  <Install mono debuger to show line number>
+1-2. sudo apt-get install mono-dbg  <Install mono debuger to show line number>
 
 ----------------------------------------------------------------------------------------------------------------------
 The package mono-devel should be installed to compile code.
