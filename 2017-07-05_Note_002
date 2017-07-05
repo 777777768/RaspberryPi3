@@ -1,20 +1,25 @@
 ######################################################################################################################
 public class code101
 {
-public static void Main(string[] args){
+public static void Main(string[] args)
+{
     System.Console.Write("Good morning");
     System.Console.WriteLine("Hello How are you?");
-    }
-    }
+}
+}
 ----------------------------------------------------------    
-using System; //only the name of namespace.
+using System;               //occupy namespace instructions.
 public class code101
 {
-public static void Main(){    
+public static void Main()
+{    
     Console.Write("Good morning");    
     Console.WriteLine("Hello How are you?");    
 }    
 }  
 ######################################################################################################################
 1. Open Command Prompt for VS 2017
-2. 
+2. CD\ 
+3. Go to diratory where file is saved
+4. csc filename.cs  (compile cs file)
+5. filename.exe     (execute file)
