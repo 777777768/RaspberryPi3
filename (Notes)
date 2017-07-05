@@ -36,13 +36,14 @@ root@raspberrypi:~# \
 > done
 
 ######################################################################################################################
+2-1. Install C# Compiler
 https://www.maketecheasier.com/write-c-sharp-programs-raspberry-pi/
 
-1-0. sudo apt-get install mono-devel  <Install mono-devel to compile code>
+2-2. sudo apt-get install mono-devel  <Install mono-devel to compile code>
 
-1-1. sudo apt-get install mono-complete   <Install Mono - C# common runtime .net compiler>
+2-3. sudo apt-get install mono-complete   <Install Mono - C# common runtime .net compiler>
 
-1-2. sudo apt-get install mono-dbg  <Install mono debuger to show line number>
+2-4. sudo apt-get install mono-dbg  <Install mono debuger to show line number>
 
 ----------------------------------------------------------------------------------------------------------------------
 The package mono-devel should be installed to compile code.
@@ -64,8 +65,9 @@ The package mono-xsp4 should be installed for running ASP.NET applications.
 Ref:http://www.mono-project.com/download/
 Ref:http://www.monodevelop.com/
 ----------------------------------------------------------------------------------------------------------------------
+3-1. Write C# Program in Terminal
 
-2. nano /home/pi/hello.cs
+3-2. nano /home/pi/hello.cs
 
 /// Write a HelloWorld class
 using System;
@@ -78,19 +80,19 @@ public class HelloWorld
     }
 }
 
-3. mcs hello.cs      <Compile hello.cs to C>
+3-3. mcs hello.cs      <Compile hello.cs to C>
 
-4. file hello.exe
+3-4. file hello.exe
 
-5. nano hello.cs     <edit hello.cs file>
+3-5. nano hello.cs     <edit hello.cs file>
 
 ######################################################################################################################
 
- write GUI programs 
+ 4-1. Write C# GUI Programs 
  
- 1. sudo apt-get install gtk-sharp2   <Install install the bindings between Mono and GTK>
+ 4-2. sudo apt-get install gtk-sharp2   <Install install the bindings between Mono and GTK>
  
- 2. nano /home/pi/hellogtk.cs
+ 4-3. nano /home/pi/hellogtk.cs
  
 using Gtk;
 using System;
@@ -109,14 +111,15 @@ class Hello {
         }
 }
 
-3. mcs hellogtk.cs -pkg:gtk-sharp-2.0   <Using -pkg: flag to access GTK Sharp toolkit (Gtk#) and compile to executable)
+4-4. mcs hellogtk.cs -pkg:gtk-sharp-2.0   <Using -pkg: flag to access GTK Sharp toolkit (Gtk#) and compile to executable)
 
-4. mono hello.exe
+4-5. mono hello.exe
 
 ######################################################################################################################
+5-1. Install C# Compiler
 
-1. sudo apt-get install monodevelop   <Install MonoDevelop>
+5-2. sudo apt-get install monodevelop   <Install MonoDevelop>
 
-2. 
+5-3. 
 
  
