@@ -1,3 +1,20 @@
 ######################################################################################################################
-
-
+public class code101
+{
+public static void Main(string[] args){
+    System.Console.Write("Good morning");
+    System.Console.WriteLine("Hello How are you?");
+    }
+    }
+----------------------------------------------------------    
+using System; //only the name of namespace.
+public class code101
+{
+public static void Main(){    
+    Console.Write("Good morning");    
+    Console.WriteLine("Hello How are you?");    
+}    
+}  
+######################################################################################################################
+1. Open Command Prompt for VS 2017
+2. 
