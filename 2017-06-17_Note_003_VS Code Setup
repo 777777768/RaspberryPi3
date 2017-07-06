@@ -10,3 +10,5 @@ Ctrl + ` open Terminal in Powershell
 Create C# envrionment    dotnet new console
 Compile C# code          dotnet restore    
 
+Install Git
+https://social.technet.microsoft.com/wiki/contents/articles/35780.visual-studio-code-getting-started-with-powershell.aspx
