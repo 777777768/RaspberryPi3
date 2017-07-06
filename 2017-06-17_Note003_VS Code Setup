@@ -1,0 +1,12 @@
+######################################################################################################################
+Install Visual Studio Code
+Install C# Extension
+Install .Net Core SDK https://www.microsoft.com/net/core#windowscmd
+Restart 
+Create a Folder C:\Code00\helloworld\
+Open helloworld folder in VS Code
+https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/with-visual-studio-code
+Ctrl + ` open Terminal in Powershell
+Create C# envrionment    dotnet new console
+Compile C# code          dotnet restore    
+
