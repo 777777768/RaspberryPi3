@@ -42,6 +42,8 @@ enable sound through HDMI or 3.5mm audio jack
 3.    0=auto
       1=headphones
       2=hdm
+4. alsamixer (display graphic controller)
+5. sudo /etc/init.d/alsa-utils reset (reset to default state)
 
 ######################################################################################################################
 2-1. Install C# Compiler
