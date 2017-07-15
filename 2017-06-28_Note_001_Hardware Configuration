@@ -13,6 +13,30 @@ Pin 3 <-- -input
 
 Pin 4 <-- +input
 ######################################################################################################################
+0-1. Set username & password
+0-2. sudo passwd root
+0-3. logout
+   
+   logout back in as the user 'root' using the password you just created. Now we can rename the the default pi user name. 
+The following method renames the user 'pi' to 'newname', replace this with whatever you want. Type the command:
+
+0-4. usermod -l newname pi
+
+  reflect the new login name:
+
+0-5. usermod -m -d /home/newname newname
+
+  log back in to change password from raspberrypi
+  
+0-6. passwd
+
+  !!optional!! disable root user account
+
+0-7. sudo apt-get update
+
+https://www.modmypi.com/blog/how-to-change-the-default-account-username-and-password
+
+######################################################################################################################
 1-1. Raspberry Pi Board configuration
 
 1. Change config.txt
