@@ -13,24 +13,31 @@ Pin 3 <-- -input
 
 Pin 4 <-- +input
 ######################################################################################################################
-0-1. Set username & password
+
+0-1. Add username
+https://www.raspberrypi.org/documentation/linux/usage/users.md
+
 0-2. sudo passwd root
 0-3. logout
    
    logout back in as the user 'root' using the password you just created. Now we can rename the the default pi user name. 
 The following method renames the user 'pi' to 'newname', replace this with whatever you want. Type the command:
 
-0-4. usermod -l newname pi
+0-4. usudo vsisudo
 
-  reflect the new login name:
-
-0-5. usermod -m -d /home/newname newname
-
-  log back in to change password from raspberrypi
+0-5. # User privilege specification
+     root    ALL=(ALL:ALL) ALL
   
-0-6. passwd
+0-6. # User privilege specification
+     root    ALL=(ALL:ALL) ALL
+     newname ALL=(ALL:ALL) ALL
+     newname ALL = NOPASSWD: ALL
 
-  !!optional!! disable root user account
+https://thepihut.com/blogs/raspberry-pi-tutorials/19668676-renaming-your-raspberry-pi-the-hostname
+0-7. Change hostname: sudo nano /etc/hostname
+                      change raspberrypi to another name
+                      sudo nano /etc/hosts
+                      change 127.0.1.1 raspberrypi to another name
 
 0-7. sudo apt-get update
 
