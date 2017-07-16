@@ -164,6 +164,7 @@ class Hello {
 ######################################################################################################################
 
 5-1. MonoDevelop enables developers to quickly write desktop and web applications on Linux, Windows and Mac OS X
+https://packages.debian.org/stable/
 
 5-2. sudo apt-get install monodevelop   <Install MonoDevelop>
 
