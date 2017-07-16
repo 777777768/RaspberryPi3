@@ -81,6 +81,8 @@ http://blog.scphillips.com/posts/2013/01/sound-configuration-on-raspberry-pi-wit
 2-1. Install C# Compiler
 https://www.maketecheasier.com/write-c-sharp-programs-raspberry-pi/
 
+http://www.mono-project.com/download/#download-lin-debian
+
 2-2. sudo apt-get install mono-devel  <Install mono-devel to compile code>
 
 2-3. sudo apt-get install mono-complete   <Install Mono - C# common runtime .net compiler>
