@@ -15,6 +15,10 @@ Pin 4 <-- +input
 ######################################################################################################################
 0-0. sudo raspi-config
     change timezone
+    allocate graphic memory to fom 64 to 128 
+    Advance option screen resolution to default 16:9 1920:1200
+    audio
+    
 0-1. Add username
     https://www.raspberrypi.org/documentation/linux/usage/users.md
 
