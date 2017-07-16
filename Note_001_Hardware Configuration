@@ -189,5 +189,42 @@ https://packages.debian.org/stable/
 6-3. www.giganews.com
 
 ######################################################################################################################
+https://www.raspberrypi.org/forums/viewtopic.php?f=78&t=52261#
+7-1. keitzer
+How far is the load getting? is it detecting the controller on boot?
 
-7-1. 
+Type - sudo apt-get install xboxdrv
+This gets the drivers
+Now you have to change the rc.local so the RPi detects the controller
+Type - sudo nano /etc/rc.local
+Now add the text as described 
+Then press left ctrl+X
+It will ask you if you want to make changes to the file
+Press 'y' (yes)
+Then press Enter
+Then Type - sudo reboot
+The RPi will reboot and 'hopefully' the controller is now detected
+"The list of things I have heard now contains everything!"
+
+7-2. #!/bin/sh -e
+#
+# rc.local
+#
+# This script is executed at the end of each multiuser runlevel.
+# Make sure that the script will "exit 0" on success or any other
+# value on error.
+#
+# In order to enable or disable this script just change the execution
+# bits.
+#
+# By default this script does nothing.
+
+# Print the IP address
+_IP=$(hostname -I) || true
+if [ "$_IP" ]; then
+  printf "My IP address is %s\n" "$_IP"
+fi
+
+xboxdrv --trigger-as-button --id 0 --led 2 --deadzone 4000 --silent &
+sleep 1
+exit 0
