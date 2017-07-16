@@ -13,9 +13,10 @@ Pin 3 <-- -input
 
 Pin 4 <-- +input
 ######################################################################################################################
-
+0-0. sudo raspi-config
+    change timezone
 0-1. Add username
-https://www.raspberrypi.org/documentation/linux/usage/users.md
+    https://www.raspberrypi.org/documentation/linux/usage/users.md
 
 0-2. sudo passwd root , sudo passwd pi
 0-3. logout
