@@ -106,7 +106,8 @@ sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
 @xset s off 
 @xset -dpms
 
-
+Troubleshoot GPIO pins and etc
+http://abyz.co.uk/rpi/pigpio/examples.html#Hardware
 Test GPIO pins
 sudo pigpiod
 bash gpiotest  <download from http://abyz.co.uk/rpi/pigpio/examples.html#Hardware>
