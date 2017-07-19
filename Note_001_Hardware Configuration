@@ -15,7 +15,6 @@ Pin 4 <-- +input
 ######################################################################################################################
 0-0. sudo raspi-config
     change timezone
-    allocate graphic memory to fom 64 to 128 
     Advance option screen resolution to default 16:9 1920:1200
     audio
     
@@ -108,6 +107,9 @@ sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
 @xset -dpms
 
 
+Test GPIO pins
+sudo pigpiod
+bash gpiotest  <download from http://abyz.co.uk/rpi/pigpio/examples.html#Hardware>
 
 
 ######################################################################################################################
