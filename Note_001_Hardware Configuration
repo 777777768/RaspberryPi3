@@ -13,6 +13,9 @@ Pin 3 <-- -input
 
 Pin 4 <-- +input
 ######################################################################################################################
+using LXterminal command prompt 
+https://www.jeremymorgan.com/tutorials/raspberry-pi/how-to-linux/
+
 0-0. sudo raspi-config
     change timezone
     Advance option screen resolution to default 16:9 1920:1200
