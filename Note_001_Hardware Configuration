@@ -96,7 +96,7 @@ sudo leafpad /boot/config.txt
 
 edit screensaver
 
-sudo leafnote /etc/kbd/config
+sudo leafpad /etc/kbd/config
 BLANK_TIME=0
 BLANK_DPMS=off
 POWERDOWN_TIME=0
