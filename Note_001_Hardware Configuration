@@ -86,7 +86,13 @@ Play MP3 file
 3. sudo apt-get install mpg321
 
 
+Change Clock Rate
+sudo leafpad /boot/config.txt
+1. arm_freq = 900
+2. core_freq = 275
+3. sdram_freq = 500
 
+1. arm_freq = 930. core_freq = 350. sdram_freq = 500
 
 
 
