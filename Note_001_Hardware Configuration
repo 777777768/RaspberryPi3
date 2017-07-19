@@ -94,8 +94,18 @@ sudo leafpad /boot/config.txt
 
 1. arm_freq = 930. core_freq = 350. sdram_freq = 500
 
+edit screensaver
 
+sudo leafnote /etc/kbd/config
+BLANK_TIME=0
+BLANK_DPMS=off
+POWERDOWN_TIME=0
 
+edit screensaver in rasberrypi pixel
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
+@xset s noblank 
+@xset s off 
+@xset -dpms
 
 
 
