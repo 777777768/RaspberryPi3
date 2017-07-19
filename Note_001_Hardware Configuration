@@ -113,6 +113,20 @@ sudo pigpiod
 bash gpiotest  <download from http://abyz.co.uk/rpi/pigpio/examples.html#Hardware>
 
 
+Install and run Piscope
+wget abyz.co.uk/rpi/pigpio/piscope.tar      
+tar xvf piscope.tar      
+cd PISCOPE      
+make hf      
+make install
+killall pigpiod
+sudo pigpiod
+cd /home/pi/PISCOPE/
+./piscope    <run GUI>
+
+
+
+
 ######################################################################################################################
 enable sound through HDMI or 3.5mm audio jackenable sound through HDMI or 3.5mm audio jack
 http://blog.scphillips.com/posts/2013/01/sound-configuration-on-raspberry-pi-with-alsa/
