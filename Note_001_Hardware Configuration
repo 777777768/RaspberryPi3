@@ -164,8 +164,21 @@ bash gpiotest  <download from http://abyz.co.uk/rpi/pigpio/examples.html#Hardwar
 
 2. Install and run Piscope
 
-wget abyz.co.uk/rpi/pigpio/piscope.tar      
+wget abyz.co.uk/rpi/pigpio/piscope.tar   
+
+http://www.thegeekstuff.com/2010/04/unix-tar-command-examples/
+
+c – create a uncompressed archive ($ tar cvf archive_name.tar dirname/)
+x – extract files from archive (xvfz) ($ tar xvf archive_file.tar /home/pi/dir1/ /home/pi/dir2/)  (2 directories)
+v – verbosely list files which are processed
+f – following is the archive file name
+t - view the tar archive file content without extracting ($ tar tvf archive_name.tar)
+z – filter the archive through gzip  ($ tar cvzf archive_name.tar.gz dirname/) create compressed file
+j – filter the archive through bzip2 ($ tar -cjf - /directory/to/archive/ | wc -c)
+r - add to existing .tar file ($ tar rvf archive_name.tar newfile)
+W - verify the archive file that got created ($ tar cvfW file_name.tar dir/)
 tar xvf piscope.tar      
+
 cd PISCOPE      
 make hf      
 make install
