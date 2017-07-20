@@ -90,11 +90,18 @@ Play MP3 file
 
 Change Clock Rate
 sudo leafpad /boot/config.txt
+0. force_turbo=0
+0. arm_freq_min = 800
 1. arm_freq = 900
 2. core_freq = 275
 3. sdram_freq = 500
 
-1. arm_freq = 930. core_freq = 350. sdram_freq = 500
+#force_turbo=0
+#over_voltage=6
+#arm_freq=800
+#arm_freq=930
+#core_freq = 350
+#sdram_freq = 500
 
 edit screensaver
 
