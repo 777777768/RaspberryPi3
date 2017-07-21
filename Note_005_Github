@@ -13,3 +13,5 @@ $ git help config
 $ CD /home/pi/Git
 $ git init
 Reinitialized existing Git repository in /home/pi/Git/.git/
+
+$ git clone https://github.com/Sparkbeetle/classroom/
