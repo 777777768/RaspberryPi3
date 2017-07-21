@@ -15,3 +15,6 @@ $ git init
 Reinitialized existing Git repository in /home/pi/Git/.git/
 
 $ git clone https://github.com/Sparkbeetle/classroom/
+
+#3. Remove git folder
+rm -rf <folder name>
