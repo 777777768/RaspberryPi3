@@ -1,0 +1,15 @@
+######################################## ########################################
+https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+#1. Install git-all-1:2.1.4-2.1+deb8u3
+
+#2. 
+$ git config --global user.name "sparkbeetle"
+$ git config --global user.email sparkbeetle@gmail.com
+$ git config --global core.editor leafpad
+$ git config --list
+$ git help config
+
+#3. Getting a Git Repository
+$ CD /home/pi/Git
+$ git init
+Reinitialized existing Git repository in /home/pi/Git/.git/
