@@ -317,6 +317,16 @@ www.giganews.com
 sudo apt-get install sabnzbdplus
 
 ########################################
+#1. Check micro SD space
+df <disk freespace>
+df -h <human readable>
+df -BM <block size per unit 1,048,576 bytes>
+df -H <print sizes in powers of 1000>
+df -a <all include dummy file systems>
+df --total <grand total
+
+######################################## ########################################
+
 https://www.raspberrypi.org/forums/viewtopic.php?f=78&t=52261#
 
 7-1. keitzer
