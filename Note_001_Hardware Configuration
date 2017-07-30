@@ -257,7 +257,7 @@ public class HelloWorld
 
 3-4. file hello.exe
 
-3-5. nano hello.exe
+3-5. mono hello.exe   <execute .exe file>
 
 3-6. nano hello.cs     <edit hello.cs file>
 
