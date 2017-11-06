@@ -6,6 +6,7 @@ Restart
 Create a Folder C:\Code00\helloworld\
 Open helloworld folder in VS Code
 https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/with-visual-studio-code
+https://code.visualstudio.com/Docs/languages/csharp
 Ctrl + ` open Terminal in Powershell
 Create C# envrionment    dotnet new console
 Compile C# code          dotnet restore    
