@@ -13,3 +13,11 @@ Compile C# code          dotnet restore
 
 Install Git
 https://social.technet.microsoft.com/wiki/contents/articles/35780.visual-studio-code-getting-started-with-powershell.aspx
+
+######################################################################################################################
+Install Visual Studio 2017 for C#
+Select .NET desktop development
+Goto Individual components
+Select Windows Communication Foundation
+Select C# and VIsual Basic Roslyn compilers
+Select IIS Express
